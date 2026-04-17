@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoTrace IA | Dashboard de huella ambiental</title>
+    <meta
+      name="description"
+      content="Prototipo web para analizar facturas electrónicas CUFE, clasificar productos e identificar su huella ambiental con apoyo de inteligencia artificial."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-left"></div>
+    <div class="page-glow glow-right"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#inicio" class="brand">
+          <span class="brand-mark">◆</span>
+          <span>EcoTrace IA</span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="#componentes">Componentes</a>
+          <a href="#flujo">Flujo</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#pantallas">Pantallas</a>
+          <a href="#impacto">Impacto</a>
+        </nav>
+
+        <a class="btn btn-sm btn-outline" href="#dashboard">Ver prototipo</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Tecnología disruptiva + sostenibilidad + IA</span>
+            <h1>
+              Dashboard inteligente para convertir facturas CUFE en decisiones
+              ambientales y acciones de economía circular.
+            </h1>
+            <p class="hero-text">
+              EcoTrace IA automatiza la consulta y análisis de facturas electrónicas,
+              extrae productos vendidos, los clasifica por categoría e impacto
+              ambiental y activa campañas de seguimiento con IA para prolongar la
+              vida útil de los productos.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#dashboard">Explorar dashboard</a>
+              <a class="btn btn-secondary" href="#flujo">Ver flujo del sistema</a>
+            </div>
+
+            <div class="hero-badges">
+              <span>Consulta CUFE</span>
+              <span>Clasificación IA</span>
+              <span>Huella ambiental</span>
+              <span>Correos y SMS</span>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal delay-1">
+            <div class="glass-card hero-card">
+              <div class="card-heading">
+                <div>
+                  <p class="card-label">Resumen ejecutivo</p>
+                  <h3>Prototipo funcional</h3>
+                </div>
+                <span class="status-badge success">Activo</span>
+              </div>
+
+              <div class="mini-kpis">
+                <article>
+                  <strong data-counter="1250">0</strong>
+                  <span>Facturas analizadas</span>
+                </article>
+                <article>
+                  <strong data-counter="3480">0</strong>
+                  <span>Productos detectados</span>
+                </article>
+                <article>
+                  <strong data-counter="315">0</strong>
+                  <span>Clientes reactivables</span>
+                </article>
+              </div>
+
+              <div class="hero-chart">
+                <div class="chart-header">
+                  <span>Impacto ambiental estimado</span>
+                  <strong>Últimos 6 meses</strong>
+                </div>
+                <div class="bars">
+                  <span style="--h: 45%"></span>
+                  <span style="--h: 58%"></span>
+                  <span style="--h: 62%"></span>
+                  <span style="--h: 69%"></span>
+                  <span style="--h: 75%"></span>
+                  <span style="--h: 81%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="componentes">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Componentes principales</span>
+            <h2>Arquitectura del prototipo</h2>
+            <p>
+              El sistema fue planteado para demostrar cómo la inteligencia
+              artificial puede automatizar tareas operativas y, al mismo tiempo,
+              abrir nuevas oportunidades de trazabilidad y sostenibilidad.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <div class="icon">01</div>
+              <h3>Consulta de facturas CUFE</h3>
+              <p>
+                Ingreso del código CUFE para consultar información estructurada de
+                la factura electrónica.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="icon">02</div>
+              <h3>Extracción automática de productos</h3>
+              <p>
+                La IA identifica nombres de productos, referencias y patrones de
+                compra relevantes para el análisis posterior.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="icon">03</div>
+              <h3>Clasificación por categoría e impacto</h3>
+              <p>
+                Cada producto se organiza según su tipo y su posible huella
+                ambiental: consumo, residuos, reutilización y vida útil.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="icon">04</div>
+              <h3>Dashboard analítico</h3>
+              <p>
+                Visualización de métricas clave, tablas, tendencias y focos de
+                intervención sostenible para la toma de decisiones.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-1">
+              <div class="icon">05</div>
+              <h3>Agente IA de seguimiento</h3>
+              <p>
+                Automatiza correos y SMS para fomentar mantenimiento,
+                reacondicionamiento, recompra o reciclaje del producto.
+              </p>
+            </article>
+
+            <article class="feature-card reveal delay-2">
+              <div class="icon">06</div>
+              <h3>Economía circular</h3>
+              <p>
+                Convierte registros de venta en campañas activas que extienden el
+                ciclo de vida del producto y generan nuevas tareas humanas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="flujo">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Flujo de funcionamiento</span>
+            <h2>¿Cómo opera la solución?</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-step">1</span>
+              <div>
+                <h3>Ingreso del CUFE</h3>
+                <p>
+                  El usuario consulta la factura electrónica mediante el código
+                  CUFE para acceder a la información asociada a la venta.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal delay-1">
+              <span class="timeline-step">2</span>
+              <div>
+                <h3>Extracción inteligente</h3>
+                <p>
+                  Un motor de IA interpreta el documento, reconoce productos,
+                  unidades y contexto comercial sin carga manual repetitiva.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal delay-2">
+              <span class="timeline-step">3</span>
+              <div>
+                <h3>Clasificación ambiental</h3>
+                <p>
+                  Los artículos se etiquetan por categoría y por impacto potencial
+                  sobre el ambiente, permitiendo identificar prioridades.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-step">4</span>
+              <div>
+                <h3>Análisis y visualización</h3>
+                <p>
+                  El dashboard consolida indicadores para observar patrones de
+                  consumo, huella estimada y segmentos críticos.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal delay-1">
+              <span class="timeline-step">5</span>
+              <div>
+                <h3>Activación circular</h3>
+                <p>
+                  El sistema detecta clientes a quienes se puede invitar a
+                  mantenimiento, reparación, reacondicionamiento o reciclaje.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal delay-2">
+              <span class="timeline-step">6</span>
+              <div>
+                <h3>Seguimiento automatizado</h3>
+                <p>
+                  Un agente de IA envía mensajes periódicos por correo y SMS para
+                  mantener el contacto y promover decisiones sostenibles.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="dashboard">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Dashboard</span>
+            <h2>Visualización del impacto ambiental potencial</h2>
+            <p>
+              Esta sección simula el panel principal de control para la toma de
+              decisiones, combinando datos comerciales, clasificación ambiental y
+              campañas de economía circular.
+            </p>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="dashboard-main reveal">
+              <div class="stats-grid">
+                <article class="stat-card">
+                  <span>Facturas procesadas</span>
+                  <strong data-counter="1250">0</strong>
+                  <small>+12% frente al periodo anterior</small>
+                </article>
+                <article class="stat-card">
+                  <span>Productos clasificados</span>
+                  <strong data-counter="3480">0</strong>
+                  <small>IA con extracción automática</small>
+                </article>
+                <article class="stat-card">
+                  <span>Huella estimada</span>
+                  <strong data-counter="278">0</strong>
+                  <small>Ton CO₂ eq potencial</small>
+                </article>
+                <article class="stat-card">
+                  <span>Clientes para campaña</span>
+                  <strong data-counter="315">0</strong>
+                  <small>Reacondicionamiento y recompra</small>
+                </article>
+              </div>
+
+              <div class="panel-row">
+                <article class="panel chart-panel">
+                  <div class="panel-head">
+                    <div>
+                      <span class="panel-label">Distribución por categoría</span>
+                      <h3>Productos comercializados</h3>
+                    </div>
+                    <span class="badge">Actualizado hoy</span>
+                  </div>
+                  <div class="category-bars">
+                    <div>
+                      <label>Electrodomésticos</label>
+                      <div class="progress"><span style="width: 78%"></span></div>
+                    </div>
+                    <div>
+                      <label>Dispositivos electrónicos</label>
+                      <div class="progress"><span style="width: 66%"></span></div>
+                    </div>
+                    <div>
+                      <label>Accesorios</label>
+                      <div class="progress"><span style="width: 41%"></span></div>
+                    </div>
+                    <div>
+                      <label>Iluminación</label>
+                      <div class="progress"><span style="width: 52%"></span></div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="panel donut-panel">
+                  <div class="panel-head">
+                    <div>
+                      <span class="panel-label">Nivel de impacto</span>
+                      <h3>Clasificación ambiental</h3>
+                    </div>
+                  </div>
+                  <div class="donut-wrap">
+                    <div class="donut-chart">
+                      <div class="donut-hole">
+                        <strong>62%</strong>
+                        <span>alto y medio</span>
+                      </div>
+                    </div>
+                    <ul class="legend">
+                      <li><span class="dot high"></span> Alto impacto</li>
+                      <li><span class="dot medium"></span> Impacto medio</li>
+                      <li><span class="dot low"></span> Bajo impacto</li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+
+              <article class="panel table-panel">
+                <div class="panel-head table-head">
+                  <div>
+                    <span class="panel-label">Productos detectados</span>
+                    <h3>Tabla de clasificación</h3>
+                  </div>
+
+                  <div class="filter-group" role="tablist" aria-label="Filtrar tabla">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="alto">Alto</button>
+                    <button class="filter-btn" data-filter="medio">Medio</button>
+                    <button class="filter-btn" data-filter="bajo">Bajo</button>
+                  </div>
+                </div>
+
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Producto</th>
+                        <th>Categoría</th>
+                        <th>Impacto</th>
+                        <th>Huella estimada</th>
+                        <th>Acción sugerida</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr data-impact="alto">
+                        <td>Nevera Frost 300L</td>
+                        <td>Electrodoméstico</td>
+                        <td><span class="pill pill-high">Alto</span></td>
+                        <td>82 kg CO₂ eq</td>
+                        <td>Mantenimiento y recompra</td>
+                      </tr>
+                      <tr data-impact="alto">
+                        <td>Televisor LED 55”</td>
+                        <td>Dispositivo electrónico</td>
+                        <td><span class="pill pill-high">Alto</span></td>
+                        <td>64 kg CO₂ eq</td>
+                        <td>Reacondicionamiento</td>
+                      </tr>
+                      <tr data-impact="medio">
+                        <td>Licuadora Pro Mix</td>
+                        <td>Electrodoméstico</td>
+                        <td><span class="pill pill-medium">Medio</span></td>
+                        <td>25 kg CO₂ eq</td>
+                        <td>Extensión de garantía</td>
+                      </tr>
+                      <tr data-impact="medio">
+                        <td>Router WiFi 6</td>
+                        <td>Dispositivo electrónico</td>
+                        <td><span class="pill pill-medium">Medio</span></td>
+                        <td>18 kg CO₂ eq</td>
+                        <td>Recambio responsable</td>
+                      </tr>
+                      <tr data-impact="bajo">
+                        <td>Bombillo LED Smart</td>
+                        <td>Iluminación</td>
+                        <td><span class="pill pill-low">Bajo</span></td>
+                        <td>6 kg CO₂ eq</td>
+                        <td>Reciclaje al fin de vida</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </article>
+            </div>
+
+            <aside class="dashboard-side reveal delay-1">
+              <article class="panel side-panel">
+                <div class="panel-head">
+                  <div>
+                    <span class="panel-label">Motor IA</span>
+                    <h3>Recomendaciones activas</h3>
+                  </div>
+                </div>
+
+                <div class="recommendation-list">
+                  <div>
+                    <strong>Segmento prioritario</strong>
+                    <p>Clientes con equipos vendidos hace más de 18 meses.</p>
+                  </div>
+                  <div>
+                    <strong>Canal recomendado</strong>
+                    <p>Correo + SMS con recordatorio de revisión técnica.</p>
+                  </div>
+                  <div>
+                    <strong>Resultado esperado</strong>
+                    <p>Reducción de residuos y recuperación de valor del producto.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="panel side-panel environmental-panel">
+                <div class="panel-head">
+                  <div>
+                    <span class="panel-label">Semáforo ambiental</span>
+                    <h3>Focos de atención</h3>
+                  </div>
+                </div>
+                <ul class="alert-list">
+                  <li>
+                    <span class="alert-dot red"></span>
+                    Alto consumo energético en línea de refrigeración.
+                  </li>
+                  <li>
+                    <span class="alert-dot yellow"></span>
+                    Incremento de residuos electrónicos en televisores y routers.
+                  </li>
+                  <li>
+                    <span class="alert-dot green"></span>
+                    Potencial de reacondicionamiento alto en pequeños
+                    electrodomésticos.
+                  </li>
+                </ul>
+              </article>
+
+              <article class="panel side-panel">
+                <div class="panel-head">
+                  <div>
+                    <span class="panel-label">Objetivos específicos</span>
+                    <h3>Relación con el proyecto</h3>
+                  </div>
+                </div>
+                <ul class="objective-list">
+                  <li>Automatizar el análisis de facturas CUFE.</li>
+                  <li>Clasificar productos vendidos con apoyo de IA.</li>
+                  <li>Visualizar la huella ambiental potencial.</li>
+                  <li>Demostrar impacto disruptivo sobre el trabajo humano.</li>
+                </ul>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="agente">
+        <div class="container ai-grid">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Llamado a la acción</span>
+            <h2>Agente IA para seguimiento automático</h2>
+            <p>
+              Después de un tiempo determinado, el sistema puede volver a contactar
+              al cliente para ofrecer servicios de reparación, mantenimiento,
+              reacondicionamiento o reciclaje, fortaleciendo la economía circular.
+            </p>
+          </div>
+
+          <div class="ai-cards">
+            <article class="message-card reveal">
+              <span class="message-tag">Correo automatizado</span>
+              <h3>Asunto: Dale una segunda vida a tu equipo</h3>
+              <p>
+                Hola, notamos que tu producto podría beneficiarse de una revisión
+                técnica. Tenemos opciones de reacondicionamiento y descuento por
+                entrega responsable.
+              </p>
+            </article>
+
+            <article class="message-card reveal delay-1">
+              <span class="message-tag sms">SMS inteligente</span>
+              <h3>Mensaje breve</h3>
+              <p>
+                Tu equipo puede entrar a plan de mantenimiento o recompra.
+                Respondé SÍ y te contactamos.
+              </p>
+            </article>
+
+            <article class="message-card reveal delay-2">
+              <span class="message-tag success">Impacto esperado</span>
+              <h3>Nuevas oportunidades</h3>
+              <p>
+                La automatización no elimina el trabajo humano: lo transforma hacia
+                análisis, atención al cliente, soporte técnico y reacondicionamiento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pantallas">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Pantallas y mockups</span>
+            <h2>Vistas clave del sistema</h2>
+            <p>
+              Estas pantallas sintetizan el recorrido del usuario dentro del
+              prototipo, desde la consulta de la factura hasta la activación de
+              campañas sostenibles.
+            </p>
+          </div>
+
+          <div class="screen-grid">
+            <article class="screen-card reveal">
+              <span class="screen-number">Pantalla 1</span>
+              <h3>Inicio del sistema</h3>
+              <p>Presentación de la solución, objetivos y acceso al panel.</p>
+            </article>
+
+            <article class="screen-card reveal delay-1">
+              <span class="screen-number">Pantalla 2</span>
+              <h3>Consulta de factura CUFE</h3>
+              <p>Ingreso del código CUFE para iniciar la extracción de datos.</p>
+            </article>
+
+            <article class="screen-card reveal delay-2">
+              <span class="screen-number">Pantalla 3</span>
+              <h3>Extracción de productos</h3>
+              <p>Visualización de los productos detectados por la IA.</p>
+            </article>
+
+            <article class="screen-card reveal">
+              <span class="screen-number">Pantalla 4</span>
+              <h3>Clasificación ambiental</h3>
+              <p>Etiquetado por tipo de producto, impacto y acción recomendada.</p>
+            </article>
+
+            <article class="screen-card reveal delay-1">
+              <span class="screen-number">Pantalla 5</span>
+              <h3>Dashboard analítico</h3>
+              <p>Métricas, gráficos y tabla de huella ambiental potencial.</p>
+            </article>
+
+            <article class="screen-card reveal delay-2">
+              <span class="screen-number">Pantalla 6</span>
+              <h3>Agente IA y campañas</h3>
+              <p>Automatización de notificaciones por email y SMS.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-section" id="impacto">
+        <div class="container final-grid">
+          <div class="reveal">
+            <span class="eyebrow">Valor disruptivo</span>
+            <h2>¿Por qué esta propuesta es innovadora?</h2>
+            <p>
+              La solución va más allá de la digitalización de facturas: usa IA para
+              transformar datos administrativos en decisiones ambientales, nuevas
+              formas de relación con el cliente y oportunidades de trabajo en
+              economía circular.
+            </p>
+          </div>
+
+          <div class="impact-list reveal delay-1">
+            <article>
+              <h3>Automatización inteligente</h3>
+              <p>
+                Reduce tareas repetitivas en consulta y clasificación de datos.
+              </p>
+            </article>
+            <article>
+              <h3>Toma de decisiones sostenible</h3>
+              <p>
+                Permite medir impactos y orientar estrategias de responsabilidad
+                ambiental.
+              </p>
+            </article>
+            <article>
+              <h3>Transformación del trabajo humano</h3>
+              <p>
+                Genera oportunidades en servicio técnico, reacondicionamiento,
+                logística inversa y seguimiento al cliente.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>EcoTrace IA</strong>
+          <p>Prototipo académico de tecnología disruptiva con enfoque sostenible.</p>
+        </div>
+        <a class="btn btn-sm btn-primary" href="#inicio">Volver arriba</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
