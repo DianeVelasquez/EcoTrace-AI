@@ -1,68 +1,68 @@
-# 🌱 Plataforma de Inteligencia de Productos y Economía Circular
+# 🌱 Product Intelligence & Circular Economy Platform
 
-![Estado](https://img.shields.io/badge/status-en%20desarrollo-yellow)
-![Licencia](https://img.shields.io/badge/license-MIT-blue)
-![Versión](https://img.shields.io/badge/version-0.1.0-orange)
+![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Contribuciones](https://img.shields.io/badge/contributions-welcome-brightgreen)
-![IA](https://img.shields.io/badge/AI-powered-purple)
-![Sostenibilidad](https://img.shields.io/badge/sustainability-focused-green)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![AI](https://img.shields.io/badge/AI-powered-purple)
+![Sustainability](https://img.shields.io/badge/sustainability-focused-green)
 
 ---
 
-## 📌 Descripción
-Plataforma con IA que extrae datos de facturas electrónicas (CUFE) para medir impacto ambiental y habilitar iniciativas de economía circular.
+## 📌 Description
+An AI-powered platform that extracts data from electronic invoices (CUFE) to measure environmental impact and enable circular economy initiatives.
 
 ---
 
-## 📥 Obtención de Información
-- Extracción automatizada de productos desde facturas electrónicas (CUFE).
-- Generación de registros estructurados de ventas.
-- Base de datos pensada inicialmente para contabilidad y trazabilidad.
+## 📥 Data Acquisition
+- Automated extraction of product data from electronic invoices (CUFE).
+- Generation of structured sales records.
+- Database initially designed for accounting and traceability.
 
 ---
 
-## 📊 Gestión y Clasificación de la Información
-- Clasificación de productos vendidos según:
-  - Categoría (electrodomésticos, dispositivos electrónicos, etc.).
-  - Impacto ambiental (consumo energético, residuos electrónicos, ciclo de vida).
-- Generación de datos estructurados para análisis.
+## 📊 Data Management & Classification
+- Classification of sold products based on:
+  - Category (appliances, electronic devices, etc.).
+  - Environmental impact (energy consumption, e-waste, lifecycle).
+- Generation of structured datasets for analysis.
 
 ---
 
-## 🌍 Dashboard de Impacto Ambiental
-- Visualización de métricas clave en un dashboard interactivo.
-- Seguimiento de la huella ambiental de los productos.
-- Trazabilidad del impacto a lo largo del tiempo.
+## 🌍 Environmental Impact Dashboard
+- Visualization of key metrics in an interactive dashboard.
+- Tracking of product environmental footprint.
+- Impact traceability over time.
 
 ---
 
-## 🔁 Llamado a la Acción: Economía Circular
-- Recontacto de clientes para participar en:
-  - Reacondicionamiento de productos.
-  - Programas de reciclaje y reutilización.
-- Fomento de prácticas sostenibles.
-- Generación de empleo asociado a estas iniciativas.
-- Evolución hacia modelos de negocio más sostenibles.
+## 🔁 Call to Action: Circular Economy
+- Re-engagement with customers to participate in:
+  - Product refurbishment.
+  - Recycling and reuse programs.
+- Promotion of sustainable practices.
+- Job creation linked to these initiatives.
+- Transition toward more sustainable business models.
 
 ---
 
-## 🤖 Inteligencia Artificial
-- Agente de IA encargado de:
-  - Enviar notificaciones automatizadas (correo y SMS).
-  - Realizar seguimiento periódico a clientes.
-  - Generar recomendaciones según el ciclo de vida del producto.
+## 🤖 Artificial Intelligence
+- AI Agent responsible for:
+  - Sending automated notifications (email and SMS).
+  - Performing periodic customer follow-ups.
+  - Generating recommendations based on product lifecycle.
 
 ---
 
-## 🖥️ Plataforma
-- Landing page informativa.
-- Dashboard interactivo para:
-  - Visualización de datos.
-  - Monitoreo de impacto ambiental.
-  - Gestión de clientes.
+## 🖥️ Platform
+- Informational landing page.
+- Interactive dashboard for:
+  - Data visualization.
+  - Environmental impact monitoring.
+  - Customer management.
 
 ---
 
-## 🚀 Objetivo
-Transformar datos transaccionales en herramientas de cambio, permitiendo decisiones más sostenibles y fomentando la economía circular.
+## 🚀 Objective
+Transform transactional data into tools for change, enabling more sustainable decision-making and fostering the circular economy.
